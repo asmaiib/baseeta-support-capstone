@@ -1,0 +1,15 @@
+{"id": "m001", "text": "السلام عليكم، اسمي فيصل العتيبي وأبغى أرجع لابتوب من طلبي في الرياض، رقم الجوال ٠٥٥٥٥٥٥٥٥٥", "absent_fields": ["customer.phone"]}
+{"id": "m002", "text": "my name is Sara Alharbi, i need to return a jacket from jeddah asap!!! its urgent", "absent_fields": ["customer.phone"]}
+{"id": "m003", "text": "ما هي سياسة الإرجاع؟", "absent_fields": ["customer.phone", "customer.full_name", "city"]}
+{"id": "m004", "text": "Hello. I am Abdullah, phone +966512345678. Want to exchange a blender for a bigger one in Dammam please", "absent_fields": []}
+{"id": "m005", "text": "ودي أعرف كم رسوم شحن الأثاث بالمدينة، وهل فيه توصيل خاص؟", "absent_fields": ["customer.phone", "customer.full_name"]}
+{"id": "m006", "text": "RETURN A PAIR OF SHOES KHOBAR HOW MUCH REFUND", "absent_fields": ["customer.phone", "customer.full_name"]}
+{"id": "m007", "text": "أنا محمد الشهري، جوالي 0511223344، وصلني الجوال بشاشة مكسورة وأحتاج استرجاعه من مكة بسرعة", "absent_fields": []}
+{"id": "m008", "text": "hi، أبغى أستبدل قطعة ملابس في buraidah، كم مدة الاستبدال?", "absent_fields": ["customer.phone", "customer.full_name", "city"]}
+{"id": "m009", "text": "I have been waiting three weeks for my refund and nobody replies. I want a human being to look at my case. This is unacceptable.", "absent_fields": ["customer.phone", "customer.full_name", "city"]}
+{"id": "m010", "text": "شكوى: أرجعت طلب أثاث قبل شهر ولم يصلني الاسترداد. أريد التحدث مع مسؤول.", "absent_fields": ["customer.phone", "customer.full_name", "city"]}
+{"id": "m011", "text": "emergency i need to know if my order shipped today riyadh please help order ORD-1000003", "absent_fields": ["customer.phone", "customer.full_name"]}
+{"id": "m012", "text": "بسم الله. أطال الله عمركم. أنا رجل كبير في السن، اشترى لي أبنائي جهاز لابتوب هدية قبل أسبوعين من متجركم في بريدة، ولسوء الحظ اكتشفنا أن الشاشة فيها خط أسود من اليوم الأول، وحاولنا نتواصل مع خدمة العملاء أكثر من مرة ولم نصل لنتيجة، والآن نريد إما استبداله بجهاز آخر يعمل بشكل صحيح أو استرجاع المبلغ كاملاً، وجزاكم الله خيراً على حسن تعاونكم معنا دائماً.", "absent_fields": ["customer.phone", "customer.full_name", "city"]}
+{"id": "m013", "text": "return order", "absent_fields": ["customer.phone", "customer.full_name", "city"]}
+{"id": "m014", "text": "استرجاع طلب", "absent_fields": ["customer.phone", "customer.full_name", "city"]}
+{"id": "m015", "text": "My name is Noura. Can I drop off a return in Riyadh on 2026-09-20 for a pair of shoes?", "absent_fields": ["customer.phone"]}

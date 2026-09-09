@@ -1,0 +1,40 @@
+{"case_id": "h001", "language": "en", "answer": "About the return window:\n- 15 days from delivery, unopened box or original packaging", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h002", "language": "ar", "answer": "بخصوص مدة الإرجاع:\n- 15 يومًا من تاريخ التسليم، بصندوق غير مفتوح أو تغليف أصلي", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h003", "language": "en", "answer": "About the warranty:\n- 1 year manufacturer warranty, registered automatically at purchase", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h004", "language": "ar", "answer": "بخصوص الضمان:\n- ضمان الشركة المصنعة لمدة سنة واحدة، يُسجَّل تلقائيًا عند الشراء", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h005", "language": "en", "answer": "About the shipping fee:\n- SAR 25 standard shipping, free above SAR 300", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h006", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- رسوم شحن قياسية 25 ريال، مجاني فوق 300 ريال", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h007", "language": "en", "answer": "About the return window:\n- 30 days from delivery, unused and in original condition", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h008", "language": "ar", "answer": "بخصوص مدة الإرجاع:\n- 30 يومًا من تاريخ التسليم، غير مستخدم وبحالته الأصلية", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h009", "language": "en", "answer": "About the shipping fee:\n- SAR 40 standard shipping, free above SAR 500; large furniture SAR 120 white-glove delivery", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h010", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- رسوم شحن قياسية 40 ريال، مجاني فوق 500 ريال؛ الأثاث الكبير 120 ريال توصيل خاص", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h011", "language": "en", "answer": "About the warranty:\n- 6 months against manufacturing defects", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h012", "language": "ar", "answer": "بخصوص الضمان:\n- 6 أشهر ضد عيوب التصنيع", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h013", "language": "en", "answer": "About the return window:\n- 14 days from delivery, tags attached and unworn", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h014", "language": "ar", "answer": "بخصوص مدة الإرجاع:\n- 14 يومًا من تاريخ التسليم، مع بقاء البطاقة وعدم الاستخدام", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h015", "language": "en", "answer": "About the shipping fee:\n- SAR 15 standard shipping, free above SAR 200", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h016", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- رسوم شحن قياسية 15 ريال، مجاني فوق 200 ريال", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h017", "language": "en", "answer": "About the refunds:\n- Refunds go back to the original payment method within 5-7 business days; store credit is instant.", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h018", "language": "ar", "answer": "بخصوص الاسترداد:\n- تُرد المبالغ إلى وسيلة الدفع الأصلية خلال 5-7 أيام عمل؛ رصيد المتجر فوري.", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h019", "language": "en", "answer": "About the exchanges:\n- Exchanges follow the same window as returns for that category; the replacement ships once the original is scanned at the courier.", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h020", "language": "ar", "answer": "بخصوص الاستبدال:\n- الاستبدال يتبع نفس مدة الإرجاع لتلك الفئة؛ يُشحن البديل بعد مسح المنتج الأصلي لدى شركة الشحن.", "human_score": 1.0, "label_reason": "every fact stated appears in the catalog"}
+{"case_id": "h021", "language": "en", "answer": "About the shipping fee:\n- SAR 350", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h022", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- ٣٥٠ ريالاً", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h023", "language": "en", "answer": "About the restocking fee:\n- SAR 90", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h024", "language": "ar", "answer": "بخصوص رسوم إعادة التخزين:\n- ٩٠ ريالاً", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h025", "language": "en", "answer": "About the shipping fee:\n- SAR 45", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h026", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- ٤٥ ريالاً", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h027", "language": "en", "answer": "About the shipping fee:\n- SAR 640", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h028", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- ٦٤٠ ريالاً", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h029", "language": "en", "answer": "About the shipping fee:\n- SAR 75", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h030", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- ٧٥ ريالاً", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h031", "language": "en", "answer": "About the shipping fee:\n- SAR 720", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h032", "language": "ar", "answer": "بخصوص رسوم الشحن:\n- ٧٢٠ ريالاً", "human_score": 0.0, "label_reason": "states a fee that is not in the catalog"}
+{"case_id": "h033", "language": "en", "answer": "I don't have that information in the product catalog, so I won't guess. Please check with your nearest store.", "human_score": 1.0, "label_reason": "correctly declines to guess"}
+{"case_id": "h034", "language": "ar", "answer": "لا تتوفر لدي هذه المعلومة في كتالوج المنتجات، ولن أخمّن. يرجى مراجعة أقرب فرع.", "human_score": 1.0, "label_reason": "correctly declines to guess"}
+{"case_id": "h035", "language": "en", "answer": "The return window is roughly a couple of hundred riyals and usually takes a few days either way.", "human_score": 0.5, "label_reason": "catalog-adjacent but rounded and over-generalised"}
+{"case_id": "h036", "language": "ar", "answer": "مدة الإرجاع تقريباً حوالي مئتي ريال وتستغرق بضعة أيام عادةً في الاتجاهين.", "human_score": 0.5, "label_reason": "catalog-adjacent but rounded and over-generalised"}
+{"case_id": "h037", "language": "en", "answer": "The warranty is roughly a couple of hundred riyals and usually takes a few days either way.", "human_score": 0.5, "label_reason": "catalog-adjacent but rounded and over-generalised"}
+{"case_id": "h038", "language": "ar", "answer": "الضمان تقريباً حوالي مئتي ريال وتستغرق بضعة أيام عادةً في الاتجاهين.", "human_score": 0.5, "label_reason": "catalog-adjacent but rounded and over-generalised"}
+{"case_id": "h039", "language": "en", "answer": "The shipping fee is roughly a couple of hundred riyals and usually takes a few days either way.", "human_score": 0.5, "label_reason": "catalog-adjacent but rounded and over-generalised"}
+{"case_id": "h040", "language": "ar", "answer": "رسوم الشحن تقريباً حوالي مئتي ريال وتستغرق بضعة أيام عادةً في الاتجاهين.", "human_score": 0.5, "label_reason": "catalog-adjacent but rounded and over-generalised"}

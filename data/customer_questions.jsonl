@@ -1,0 +1,500 @@
+{"id": "q001", "text": "Hello, What is your return policy for electronics? Thank you.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q002", "text": "مساء الخير، ما هي سياسة الإرجاع للإلكترونيات؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q003", "text": "السلام عليكم، ما هي سياسة الإرجاع للإلكترونيات؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q004", "text": "Good morning, What is your return policy for electronics? I need this urgently.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q005", "text": "ما هي سياسة الإرجاع للإلكترونيات؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q006", "text": "من فضلك، ما هي سياسة الإرجاع للإلكترونيات؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q007", "text": "Hi — How many days do I have to return a laptop? Thank you.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q008", "text": "من فضلك، كم يوم لدي لإرجاع اللابتوب؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q009", "text": "لو سمحت، كم يوم لدي لإرجاع اللابتوب؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q010", "text": "Hello, How many days do I have to return a laptop? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q011", "text": "من فضلك، كم يوم لدي لإرجاع اللابتوب؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q012", "text": "من فضلك، كم يوم لدي لإرجاع اللابتوب؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q013", "text": "Is there a restocking fee if I open the box? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q014", "text": "هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q015", "text": "من فضلك، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q016", "text": "Hi — Is there a restocking fee if I open the box? I need this urgently.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q017", "text": "هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q018", "text": "هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q019", "text": "Good morning, What is the warranty on phones and chargers? I need this urgently.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q020", "text": "مساء الخير، ما هو الضمان على الجوالات والشواحن؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q021", "text": "ما هو الضمان على الجوالات والشواحن؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q022", "text": "Hi — What is the warranty on phones and chargers? I need this urgently.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q023", "text": "مساء الخير، ما هو الضمان على الجوالات والشواحن؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q024", "text": "ما هو الضمان على الجوالات والشواحن؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q025", "text": "Hello, How much is shipping for electronics under SAR 300? Thank you.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q026", "text": "السلام عليكم، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q027", "text": "مساء الخير، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q028", "text": "Please, How much is shipping for electronics under SAR 300? I need this urgently.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q029", "text": "لو سمحت، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q030", "text": "مساء الخير، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q031", "text": "Good morning, Can I exchange a laptop for a different model? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q032", "text": "السلام عليكم، هل يمكنني استبدال اللابتوب بموديل آخر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q033", "text": "مساء الخير، هل يمكنني استبدال اللابتوب بموديل آخر؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q034", "text": "Please, Can I exchange a laptop for a different model? Thank you.", "language": "en", "intent": "faq", "category": "electronics"}
+{"id": "q035", "text": "هل يمكنني استبدال اللابتوب بموديل آخر؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q036", "text": "السلام عليكم، هل يمكنني استبدال اللابتوب بموديل آخر؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q037", "text": "Good morning, What is the return window for furniture? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q038", "text": "مساء الخير، ما هي مدة إرجاع الأثاث؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q039", "text": "ما هي مدة إرجاع الأثاث؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q040", "text": "Hello, What is the return window for furniture? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q041", "text": "لو سمحت، ما هي مدة إرجاع الأثاث؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q042", "text": "السلام عليكم، ما هي مدة إرجاع الأثاث؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q043", "text": "Hello, Do you charge for delivering large furniture?", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q044", "text": "مساء الخير، هل هناك رسوم لتوصيل الأثاث الكبير؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q045", "text": "لو سمحت، هل هناك رسوم لتوصيل الأثاث الكبير؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q046", "text": "Do you charge for delivering large furniture?", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q047", "text": "لو سمحت، هل هناك رسوم لتوصيل الأثاث الكبير؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q048", "text": "مساء الخير، هل هناك رسوم لتوصيل الأثاث الكبير؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q049", "text": "Hi — What is the warranty on kitchenware?", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q050", "text": "ما هو الضمان على أدوات المطبخ؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q051", "text": "من فضلك، ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q052", "text": "Please, What is the warranty on kitchenware? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q053", "text": "من فضلك، ما هو الضمان على أدوات المطبخ؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q054", "text": "السلام عليكم، ما هو الضمان على أدوات المطبخ؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q055", "text": "Good morning, Is there a restocking fee for home goods? Thank you.", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q056", "text": "هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q057", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q058", "text": "Hi — Is there a restocking fee for home goods? Thank you.", "language": "en", "intent": "faq", "category": "home_goods"}
+{"id": "q059", "text": "هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q060", "text": "السلام عليكم، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q061", "text": "Hello, How long do I have to return clothing? I need this urgently.", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q062", "text": "مساء الخير، كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q063", "text": "مساء الخير، كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q064", "text": "How long do I have to return clothing? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q065", "text": "السلام عليكم، كم المدة المسموحة لإرجاع الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q066", "text": "كم المدة المسموحة لإرجاع الملابس؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q067", "text": "Do the tags need to stay on for a clothing return? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q068", "text": "هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q069", "text": "السلام عليكم، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q070", "text": "Do the tags need to stay on for a clothing return? Thank you.", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q071", "text": "من فضلك، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q072", "text": "هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q073", "text": "Good morning, What is the shipping fee for shoes under SAR 200?", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q074", "text": "كم رسوم الشحن للأحذية أقل من 200 ريال؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q075", "text": "من فضلك، كم رسوم الشحن للأحذية أقل من 200 ريال؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q076", "text": "Good morning, What is the shipping fee for shoes under SAR 200?", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q077", "text": "مساء الخير، كم رسوم الشحن للأحذية أقل من 200 ريال؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q078", "text": "كم رسوم الشحن للأحذية أقل من 200 ريال؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q079", "text": "Please, Is there a warranty on clothing? Thank you.", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q080", "text": "لو سمحت، هل يوجد ضمان على الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q081", "text": "لو سمحت، هل يوجد ضمان على الملابس؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q082", "text": "Hello, Is there a warranty on clothing? I need this urgently.", "language": "en", "intent": "faq", "category": "fashion"}
+{"id": "q083", "text": "هل يوجد ضمان على الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q084", "text": "من فضلك، هل يوجد ضمان على الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q085", "text": "Hello, How do refunds work — do I get my money back or store credit? Thank you.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q086", "text": "لو سمحت، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q087", "text": "كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q088", "text": "Hi — How do refunds work — do I get my money back or store credit? I need this urgently.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q089", "text": "كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q090", "text": "مساء الخير، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q091", "text": "Please, How long does a refund take to reach my card? I need this urgently.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q092", "text": "السلام عليكم، كم يستغرق وصول المبلغ المسترد لبطاقتي؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q093", "text": "كم يستغرق وصول المبلغ المسترد لبطاقتي؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q094", "text": "Please, How long does a refund take to reach my card?", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q095", "text": "مساء الخير، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q096", "text": "من فضلك، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q097", "text": "Hello, Can I drop off a return at any store?", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q098", "text": "مساء الخير، هل يمكنني تسليم المرتجع في أي فرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q099", "text": "مساء الخير، هل يمكنني تسليم المرتجع في أي فرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q100", "text": "Hi — Can I drop off a return at any store? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q101", "text": "من فضلك، هل يمكنني تسليم المرتجع في أي فرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q102", "text": "لو سمحت، هل يمكنني تسليم المرتجع في أي فرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q103", "text": "Hello, Which cities have a Baseeta store? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q104", "text": "لو سمحت، في أي مدن يوجد فرع لبسيطة؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q105", "text": "لو سمحت، في أي مدن يوجد فرع لبسيطة؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q106", "text": "Hello, Which cities have a Baseeta store? I need this urgently.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q107", "text": "السلام عليكم، في أي مدن يوجد فرع لبسيطة؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q108", "text": "السلام عليكم، في أي مدن يوجد فرع لبسيطة؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q109", "text": "How does an exchange work — do I get the replacement first? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q110", "text": "السلام عليكم، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q111", "text": "كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q112", "text": "Hello, How does an exchange work — do I get the replacement first? Thank you.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q113", "text": "السلام عليكم، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q114", "text": "السلام عليكم، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q115", "text": "Can a courier pick up my return instead of me visiting a store? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q116", "text": "لو سمحت، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q117", "text": "هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q118", "text": "Hello, Can a courier pick up my return instead of me visiting a store? Sorry if this is the wrong place.", "language": "en", "intent": "faq", "category": "other"}
+{"id": "q119", "text": "هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q120", "text": "السلام عليكم، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q121", "text": "Please, What is the status of my order ORD-1000003?", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q122", "text": "لو سمحت، ما حالة طلبي ORD-1000003؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q123", "text": "ما حالة طلبي ORD-1000003؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q124", "text": "Hi — What is the status of my order ORD-1000003?", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q125", "text": "مساء الخير، ما حالة طلبي ORD-1000003؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q126", "text": "ما حالة طلبي ORD-1000003؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q127", "text": "Hi — What is the status of my order ORD-1000003?", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q128", "text": "من فضلك، ما حالة طلبي ORD-1000003؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q129", "text": "Hi — Can you check order ORD-1000001 for me?", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q130", "text": "هل يمكنك الاستعلام عن طلب ORD-1000001؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q131", "text": "من فضلك، هل يمكنك الاستعلام عن طلب ORD-1000001؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q132", "text": "Can you check order ORD-1000001 for me?", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q133", "text": "من فضلك، هل يمكنك الاستعلام عن طلب ORD-1000001؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q134", "text": "من فضلك، هل يمكنك الاستعلام عن طلب ORD-1000001؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q135", "text": "Hello, Can you check order ORD-1000001 for me?", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q136", "text": "من فضلك، هل يمكنك الاستعلام عن طلب ORD-1000001؟", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q137", "text": "Where has my order ORD-1000002 got to?", "language": "en", "intent": "service", "category": "home_goods"}
+{"id": "q138", "text": "من فضلك، وين وصل طلبي ORD-1000002؟", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q139", "text": "وين وصل طلبي ORD-1000002؟", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q140", "text": "Hello, Where has my order ORD-1000002 got to?", "language": "en", "intent": "service", "category": "home_goods"}
+{"id": "q141", "text": "السلام عليكم، وين وصل طلبي ORD-1000002؟", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q142", "text": "من فضلك، وين وصل طلبي ORD-1000002؟", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q143", "text": "Please, Where has my order ORD-1000002 got to?", "language": "en", "intent": "service", "category": "home_goods"}
+{"id": "q144", "text": "مساء الخير، وين وصل طلبي ORD-1000002؟", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q145", "text": "Hello, I want to return a laptop, order ORD-1000001, it arrived damaged", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q146", "text": "لو سمحت، أبغى أرجع لابتوب، الطلب ORD-1000001، وصل تالف", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q147", "text": "السلام عليكم، أبغى أرجع لابتوب، الطلب ORD-1000001، وصل تالف", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q148", "text": "Hello, I want to return a laptop, order ORD-1000001, it arrived damaged", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q149", "text": "السلام عليكم، أبغى أرجع لابتوب، الطلب ORD-1000001، وصل تالف", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q150", "text": "مساء الخير، أبغى أرجع لابتوب، الطلب ORD-1000001، وصل تالف", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q151", "text": "I want to return a laptop, order ORD-1000001, it arrived damaged", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q152", "text": "السلام عليكم، أبغى أرجع لابتوب، الطلب ORD-1000001، وصل تالف", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q153", "text": "Hello, I need to exchange a jacket from order ORD-1000004 for a bigger size", "language": "en", "intent": "service", "category": "fashion"}
+{"id": "q154", "text": "أبغى أستبدل جاكيت من الطلب ORD-1000004 بمقاس أكبر", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q155", "text": "السلام عليكم، أبغى أستبدل جاكيت من الطلب ORD-1000004 بمقاس أكبر", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q156", "text": "Hi — I need to exchange a jacket from order ORD-1000004 for a bigger size", "language": "en", "intent": "service", "category": "fashion"}
+{"id": "q157", "text": "لو سمحت، أبغى أستبدل جاكيت من الطلب ORD-1000004 بمقاس أكبر", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q158", "text": "من فضلك، أبغى أستبدل جاكيت من الطلب ORD-1000004 بمقاس أكبر", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q159", "text": "I need to exchange a jacket from order ORD-1000004 for a bigger size", "language": "en", "intent": "service", "category": "fashion"}
+{"id": "q160", "text": "لو سمحت، أبغى أستبدل جاكيت من الطلب ORD-1000004 بمقاس أكبر", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q161", "text": "Good morning, Please book a return drop-off in Jeddah for order ORD-1000002", "language": "en", "intent": "service", "category": "home_goods"}
+{"id": "q162", "text": "لو سمحت، من فضلك احجز موعد تسليم مرتجع في جدة لطلب ORD-1000002", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q163", "text": "لو سمحت، من فضلك احجز موعد تسليم مرتجع في جدة لطلب ORD-1000002", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q164", "text": "Please book a return drop-off in Jeddah for order ORD-1000002", "language": "en", "intent": "service", "category": "home_goods"}
+{"id": "q165", "text": "مساء الخير، من فضلك احجز موعد تسليم مرتجع في جدة لطلب ORD-1000002", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q166", "text": "مساء الخير، من فضلك احجز موعد تسليم مرتجع في جدة لطلب ORD-1000002", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q167", "text": "Good morning, Please book a return drop-off in Jeddah for order ORD-1000002", "language": "en", "intent": "service", "category": "home_goods"}
+{"id": "q168", "text": "مساء الخير، من فضلك احجز موعد تسليم مرتجع في جدة لطلب ORD-1000002", "language": "ar", "intent": "service", "category": "home_goods"}
+{"id": "q169", "text": "I want a refund for order ORD-1000003, the item does not match the photo", "language": "en", "intent": "service", "category": "fashion"}
+{"id": "q170", "text": "من فضلك، أبغى استرداد لطلب ORD-1000003، المنتج لا يطابق الصورة", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q171", "text": "السلام عليكم، أبغى استرداد لطلب ORD-1000003، المنتج لا يطابق الصورة", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q172", "text": "I want a refund for order ORD-1000003, the item does not match the photo", "language": "en", "intent": "service", "category": "fashion"}
+{"id": "q173", "text": "لو سمحت، أبغى استرداد لطلب ORD-1000003، المنتج لا يطابق الصورة", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q174", "text": "مساء الخير، أبغى استرداد لطلب ORD-1000003، المنتج لا يطابق الصورة", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q175", "text": "Please, I want a refund for order ORD-1000003, the item does not match the photo", "language": "en", "intent": "service", "category": "fashion"}
+{"id": "q176", "text": "أبغى استرداد لطلب ORD-1000003، المنتج لا يطابق الصورة", "language": "ar", "intent": "service", "category": "fashion"}
+{"id": "q177", "text": "Hi — Check the status of ORD-1000004", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q178", "text": "مساء الخير، استعلم عن حالة ORD-1000004", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q179", "text": "لو سمحت، استعلم عن حالة ORD-1000004", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q180", "text": "Please, Check the status of ORD-1000004", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q181", "text": "استعلم عن حالة ORD-1000004", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q182", "text": "مساء الخير، استعلم عن حالة ORD-1000004", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q183", "text": "Check the status of ORD-1000004", "language": "en", "intent": "service", "category": "electronics"}
+{"id": "q184", "text": "من فضلك، استعلم عن حالة ORD-1000004", "language": "ar", "intent": "service", "category": "electronics"}
+{"id": "q185", "text": "I want to speak to a human agent please", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q186", "text": "أريد التحدث إلى موظف من فضلك", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q187", "text": "أريد التحدث إلى موظف من فضلك", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q188", "text": "I want to speak to a human agent please", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q189", "text": "أريد التحدث إلى موظف من فضلك", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q190", "text": "أريد التحدث إلى موظف من فضلك", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q191", "text": "This is a complaint and I want it escalated", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q192", "text": "هذه شكوى وأريد رفعها لمسؤول", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q193", "text": "هذه شكوى وأريد رفعها لمسؤول", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q194", "text": "This is a complaint and I want it escalated", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q195", "text": "هذه شكوى وأريد رفعها لمسؤول", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q196", "text": "هذه شكوى وأريد رفعها لمسؤول", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q197", "text": "Nobody has answered me for two weeks, put me through to a person", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q198", "text": "لم يرد علي أحد منذ أسبوعين، حوّلني لموظف", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q199", "text": "لم يرد علي أحد منذ أسبوعين، حوّلني لموظف", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q200", "text": "Nobody has answered me for two weeks, put me through to a person", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q201", "text": "لم يرد علي أحد منذ أسبوعين، حوّلني لموظف", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q202", "text": "لم يرد علي أحد منذ أسبوعين، حوّلني لموظف", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q203", "text": "Your answers are not helping, get me a representative", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q204", "text": "إجاباتك لا تفيدني، أريد ممثل خدمة عملاء", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q205", "text": "إجاباتك لا تفيدني، أريد ممثل خدمة عملاء", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q206", "text": "Your answers are not helping, get me a representative", "language": "en", "intent": "escalate", "category": "other"}
+{"id": "q207", "text": "إجاباتك لا تفيدني، أريد ممثل خدمة عملاء", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q208", "text": "إجاباتك لا تفيدني، أريد ممثل خدمة عملاء", "language": "ar", "intent": "escalate", "category": "other"}
+{"id": "q209", "text": "I want to book a return drop-off in Riyadh", "language": "en", "intent": "service", "category": "other"}
+{"id": "q210", "text": "أريد حجز موعد تسليم مرتجع في الرياض", "language": "ar", "intent": "service", "category": "other"}
+{"id": "q211", "text": "I want to book a return drop-off in Jeddah", "language": "en", "intent": "service", "category": "other"}
+{"id": "q212", "text": "أريد حجز موعد تسليم مرتجع في جدة", "language": "ar", "intent": "service", "category": "other"}
+{"id": "q213", "text": "I want to book a return drop-off in Dammam", "language": "en", "intent": "service", "category": "other"}
+{"id": "q214", "text": "أريد حجز موعد تسليم مرتجع في الدمام", "language": "ar", "intent": "service", "category": "other"}
+{"id": "q215", "text": "I want to book a return drop-off in Makkah", "language": "en", "intent": "service", "category": "other"}
+{"id": "q216", "text": "أريد حجز موعد تسليم مرتجع في مكة", "language": "ar", "intent": "service", "category": "other"}
+{"id": "q217", "text": "I want to book a return drop-off in Madinah", "language": "en", "intent": "service", "category": "other"}
+{"id": "q218", "text": "أريد حجز موعد تسليم مرتجع في المدينة", "language": "ar", "intent": "service", "category": "other"}
+{"id": "q219", "text": "I want to book a return drop-off in Khobar", "language": "en", "intent": "service", "category": "other"}
+{"id": "q220", "text": "أريد حجز موعد تسليم مرتجع في الخبر", "language": "ar", "intent": "service", "category": "other"}
+{"id": "q221", "text": "السلام عليكم, what is your return policy؟", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q222", "text": "السلام عليكم, what is your return policy؟", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q223", "text": "السلام عليكم, what is your return policy؟", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q224", "text": "أريد أعمل return لطلب في Riyadh بكرة", "language": "mixed", "intent": "service", "category": "other"}
+{"id": "q225", "text": "أريد أعمل return لطلب في Riyadh بكرة", "language": "mixed", "intent": "service", "category": "other"}
+{"id": "q226", "text": "أريد أعمل return لطلب في Riyadh بكرة", "language": "mixed", "intent": "service", "category": "other"}
+{"id": "q227", "text": "كم الـ shipping fee للإلكترونيات؟", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q228", "text": "كم الـ shipping fee للإلكترونيات؟", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q229", "text": "كم الـ shipping fee للإلكترونيات؟", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q230", "text": "Hi، أبغى أستعلم عن طلبي رقم ORD-1000003", "language": "mixed", "intent": "service", "category": "other"}
+{"id": "q231", "text": "Hi، أبغى أستعلم عن طلبي رقم ORD-1000003", "language": "mixed", "intent": "service", "category": "other"}
+{"id": "q232", "text": "Hi، أبغى أستعلم عن طلبي رقم ORD-1000003", "language": "mixed", "intent": "service", "category": "other"}
+{"id": "q233", "text": "كم الـ warranty على اللابتوبات?", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q234", "text": "كم الـ warranty على اللابتوبات?", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q235", "text": "كم الـ warranty على اللابتوبات?", "language": "mixed", "intent": "faq", "category": "other"}
+{"id": "q236", "text": "مساء الخير، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q237", "text": "من فضلك، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q238", "text": "من فضلك، ما هي مدة إرجاع الأثاث؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q239", "text": "السلام عليكم، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q240", "text": "كم يستغرق وصول المبلغ المسترد لبطاقتي؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q241", "text": "كيف يعمل الاستبدال — هل أستلم البديل أولاً؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q242", "text": "من فضلك، كم يوم لدي لإرجاع اللابتوب؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q243", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q244", "text": "لو سمحت، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q245", "text": "لو سمحت، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q246", "text": "مساء الخير، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q247", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q248", "text": "لو سمحت، في أي مدن يوجد فرع لبسيطة؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q249", "text": "مساء الخير، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q250", "text": "السلام عليكم، ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q251", "text": "مساء الخير، هل هناك رسوم لتوصيل الأثاث الكبير؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q252", "text": "ما هو الضمان على الجوالات والشواحن؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q253", "text": "السلام عليكم، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q254", "text": "لو سمحت، كم يوم لدي لإرجاع اللابتوب؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q255", "text": "السلام عليكم، هل يمكنني تسليم المرتجع في أي فرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q256", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q257", "text": "لو سمحت، هل يمكنني استبدال اللابتوب بموديل آخر؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q258", "text": "لو سمحت، ما هي سياسة الإرجاع للإلكترونيات؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q259", "text": "لو سمحت، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q260", "text": "مساء الخير، كم يوم لدي لإرجاع اللابتوب؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q261", "text": "السلام عليكم، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q262", "text": "كم يوم لدي لإرجاع اللابتوب؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q263", "text": "لو سمحت، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q264", "text": "ما هو الضمان على أدوات المطبخ؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q265", "text": "مساء الخير، ما هو الضمان على أدوات المطبخ؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q266", "text": "من فضلك، هل يمكنني استبدال اللابتوب بموديل آخر؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q267", "text": "لو سمحت، ما هو الضمان على أدوات المطبخ؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q268", "text": "لو سمحت، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q269", "text": "السلام عليكم، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q270", "text": "من فضلك، ما هو الضمان على الجوالات والشواحن؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q271", "text": "كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q272", "text": "السلام عليكم، في أي مدن يوجد فرع لبسيطة؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q273", "text": "مساء الخير، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q274", "text": "لو سمحت، ما هي مدة إرجاع الأثاث؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q275", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q276", "text": "هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q277", "text": "لو سمحت، هل يمكنني تسليم المرتجع في أي فرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q278", "text": "كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q279", "text": "من فضلك، هل هناك رسوم لتوصيل الأثاث الكبير؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q280", "text": "مساء الخير، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q281", "text": "هل يوجد ضمان على الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q282", "text": "مساء الخير، كم المدة المسموحة لإرجاع الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q283", "text": "السلام عليكم، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q284", "text": "من فضلك، هل يمكنني استبدال اللابتوب بموديل آخر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q285", "text": "مساء الخير، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q286", "text": "لو سمحت، كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q287", "text": "لو سمحت، كم يستغرق وصول المبلغ المسترد لبطاقتي؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q288", "text": "هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q289", "text": "من فضلك، ما هو الضمان على أدوات المطبخ؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q290", "text": "السلام عليكم، ما هو الضمان على الجوالات والشواحن؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q291", "text": "مساء الخير، ما هو الضمان على أدوات المطبخ؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q292", "text": "لو سمحت، كم يوم لدي لإرجاع اللابتوب؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q293", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q294", "text": "السلام عليكم، كم رسوم الشحن للأحذية أقل من 200 ريال؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q295", "text": "لو سمحت، ما هي مدة إرجاع الأثاث؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q296", "text": "السلام عليكم، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q297", "text": "مساء الخير، كم رسوم الشحن للأحذية أقل من 200 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q298", "text": "من فضلك، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q299", "text": "السلام عليكم، ما هي مدة إرجاع الأثاث؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q300", "text": "هل يوجد ضمان على الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q301", "text": "مساء الخير، كم يوم لدي لإرجاع اللابتوب؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q302", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q303", "text": "كم يوم لدي لإرجاع اللابتوب؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q304", "text": "السلام عليكم، ما هي سياسة الإرجاع للإلكترونيات؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q305", "text": "هل هناك رسوم لتوصيل الأثاث الكبير؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q306", "text": "السلام عليكم، ما هي مدة إرجاع الأثاث؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q307", "text": "كيف يعمل الاستبدال — هل أستلم البديل أولاً؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q308", "text": "السلام عليكم، كم المدة المسموحة لإرجاع الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q309", "text": "السلام عليكم، كم رسوم الشحن للأحذية أقل من 200 ريال؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q310", "text": "السلام عليكم، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q311", "text": "السلام عليكم، هل يوجد ضمان على الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q312", "text": "كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q313", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q314", "text": "من فضلك، ما هي مدة إرجاع الأثاث؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q315", "text": "من فضلك، في أي مدن يوجد فرع لبسيطة؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q316", "text": "السلام عليكم، ما هو الضمان على أدوات المطبخ؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q317", "text": "من فضلك، هل يمكنني تسليم المرتجع في أي فرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q318", "text": "ما هو الضمان على أدوات المطبخ؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q319", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q320", "text": "السلام عليكم، هل يمكنني تسليم المرتجع في أي فرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q321", "text": "مساء الخير، هل يمكنني استبدال اللابتوب بموديل آخر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q322", "text": "مساء الخير، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q323", "text": "هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q324", "text": "هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q325", "text": "من فضلك، ما هو الضمان على الجوالات والشواحن؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q326", "text": "السلام عليكم، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q327", "text": "كم المدة المسموحة لإرجاع الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q328", "text": "ما هو الضمان على الجوالات والشواحن؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q329", "text": "كيف يعمل الاستبدال — هل أستلم البديل أولاً؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q330", "text": "من فضلك، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q331", "text": "لو سمحت، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q332", "text": "من فضلك، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q333", "text": "من فضلك، ما هو الضمان على أدوات المطبخ؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q334", "text": "السلام عليكم، ما هي مدة إرجاع الأثاث؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q335", "text": "لو سمحت، هل يمكنني استبدال اللابتوب بموديل آخر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q336", "text": "لو سمحت، هل يمكنني تسليم المرتجع في أي فرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q337", "text": "لو سمحت، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q338", "text": "من فضلك، كم المدة المسموحة لإرجاع الملابس؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q339", "text": "السلام عليكم، هل يمكنني تسليم المرتجع في أي فرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q340", "text": "السلام عليكم، هل يمكنني تسليم المرتجع في أي فرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q341", "text": "من فضلك، هل يوجد ضمان على الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q342", "text": "من فضلك، ما هو الضمان على الجوالات والشواحن؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q343", "text": "مساء الخير، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q344", "text": "السلام عليكم، كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q345", "text": "مساء الخير، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q346", "text": "مساء الخير، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q347", "text": "لو سمحت، في أي مدن يوجد فرع لبسيطة؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q348", "text": "كم رسوم الشحن للأحذية أقل من 200 ريال؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q349", "text": "لو سمحت، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q350", "text": "السلام عليكم، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q351", "text": "من فضلك، هل هناك رسوم لتوصيل الأثاث الكبير؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q352", "text": "من فضلك، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q353", "text": "من فضلك، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q354", "text": "من فضلك، في أي مدن يوجد فرع لبسيطة؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q355", "text": "كم المدة المسموحة لإرجاع الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q356", "text": "لو سمحت، ما هو الضمان على أدوات المطبخ؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q357", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q358", "text": "من فضلك، هل يمكنني استبدال اللابتوب بموديل آخر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q359", "text": "من فضلك، هل هناك رسوم لتوصيل الأثاث الكبير؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q360", "text": "مساء الخير، هل يمكنني تسليم المرتجع في أي فرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q361", "text": "مساء الخير، هل يمكنني استبدال اللابتوب بموديل آخر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q362", "text": "مساء الخير، كم يوم لدي لإرجاع اللابتوب؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q363", "text": "هل يوجد ضمان على الملابس؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q364", "text": "ما هي مدة إرجاع الأثاث؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q365", "text": "هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q366", "text": "لو سمحت، هل هناك رسوم لتوصيل الأثاث الكبير؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q367", "text": "ما هو الضمان على الجوالات والشواحن؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q368", "text": "السلام عليكم، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q369", "text": "في أي مدن يوجد فرع لبسيطة؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q370", "text": "لو سمحت، في أي مدن يوجد فرع لبسيطة؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q371", "text": "لو سمحت، ما هي مدة إرجاع الأثاث؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q372", "text": "من فضلك، ما هي مدة إرجاع الأثاث؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q373", "text": "مساء الخير، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q374", "text": "لو سمحت، ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q375", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q376", "text": "من فضلك، ما هو الضمان على أدوات المطبخ؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q377", "text": "من فضلك، كم يوم لدي لإرجاع اللابتوب؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q378", "text": "كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q379", "text": "هل يمكنني استبدال اللابتوب بموديل آخر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q380", "text": "مساء الخير، في أي مدن يوجد فرع لبسيطة؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q381", "text": "من فضلك، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q382", "text": "من فضلك، كم رسوم الشحن للأحذية أقل من 200 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q383", "text": "السلام عليكم، هل يمكنني تسليم المرتجع في أي فرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q384", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q385", "text": "السلام عليكم، ما هي مدة إرجاع الأثاث؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q386", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q387", "text": "مساء الخير، ما هو الضمان على الجوالات والشواحن؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q388", "text": "مساء الخير، هل يمكنني استبدال اللابتوب بموديل آخر؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q389", "text": "مساء الخير، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q390", "text": "السلام عليكم، كم رسوم الشحن للأحذية أقل من 200 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q391", "text": "من فضلك، ما هو الضمان على أدوات المطبخ؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q392", "text": "لو سمحت، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q393", "text": "من فضلك، هل يمكنني تسليم المرتجع في أي فرع؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q394", "text": "هل يمكنني استبدال اللابتوب بموديل آخر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q395", "text": "من فضلك، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q396", "text": "مساء الخير، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q397", "text": "في أي مدن يوجد فرع لبسيطة؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q398", "text": "من فضلك، هل يمكنني استبدال اللابتوب بموديل آخر؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q399", "text": "مساء الخير، هل هناك رسوم لتوصيل الأثاث الكبير؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q400", "text": "مساء الخير، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q401", "text": "مساء الخير، كم المدة المسموحة لإرجاع الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q402", "text": "السلام عليكم، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q403", "text": "هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q404", "text": "من فضلك، كم المدة المسموحة لإرجاع الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q405", "text": "مساء الخير، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q406", "text": "السلام عليكم، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q407", "text": "من فضلك، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q408", "text": "مساء الخير، ما هو الضمان على الجوالات والشواحن؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q409", "text": "السلام عليكم، كم المدة المسموحة لإرجاع الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q410", "text": "مساء الخير، هل هناك رسوم لتوصيل الأثاث الكبير؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q411", "text": "مساء الخير، كم يستغرق وصول المبلغ المسترد لبطاقتي؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q412", "text": "هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q413", "text": "من فضلك، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q414", "text": "لو سمحت، هل هناك رسوم لتوصيل الأثاث الكبير؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q415", "text": "من فضلك، كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q416", "text": "مساء الخير، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q417", "text": "هل يوجد ضمان على الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q418", "text": "السلام عليكم، هل يمكنني تسليم المرتجع في أي فرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q419", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q420", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q421", "text": "مساء الخير، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q422", "text": "لو سمحت، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q423", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q424", "text": "من فضلك، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q425", "text": "مساء الخير، في أي مدن يوجد فرع لبسيطة؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q426", "text": "مساء الخير، هل يمكنني استبدال اللابتوب بموديل آخر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q427", "text": "لو سمحت، كم يستغرق وصول المبلغ المسترد لبطاقتي؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q428", "text": "لو سمحت، كم المدة المسموحة لإرجاع الملابس؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q429", "text": "من فضلك، ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q430", "text": "السلام عليكم، ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q431", "text": "السلام عليكم، كم رسوم الشحن للأحذية أقل من 200 ريال؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q432", "text": "لو سمحت، كم المدة المسموحة لإرجاع الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q433", "text": "السلام عليكم، ما هي مدة إرجاع الأثاث؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q434", "text": "مساء الخير، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q435", "text": "لو سمحت، هل هناك رسوم لتوصيل الأثاث الكبير؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q436", "text": "من فضلك، هل يمكنني استبدال اللابتوب بموديل آخر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q437", "text": "لو سمحت، ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q438", "text": "لو سمحت، كم رسوم الشحن للأحذية أقل من 200 ريال؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q439", "text": "من فضلك، ما هي سياسة الإرجاع للإلكترونيات؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q440", "text": "ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q441", "text": "لو سمحت، في أي مدن يوجد فرع لبسيطة؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q442", "text": "السلام عليكم، في أي مدن يوجد فرع لبسيطة؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q443", "text": "ما هي مدة إرجاع الأثاث؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q444", "text": "السلام عليكم، كم يوم لدي لإرجاع اللابتوب؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q445", "text": "السلام عليكم، كم يوم لدي لإرجاع اللابتوب؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q446", "text": "ما هو الضمان على أدوات المطبخ؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q447", "text": "مساء الخير، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q448", "text": "لو سمحت، هل يوجد ضمان على الملابس؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q449", "text": "هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q450", "text": "السلام عليكم، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q451", "text": "كيف يعمل الاستبدال — هل أستلم البديل أولاً؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q452", "text": "هل يوجد ضمان على الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q453", "text": "السلام عليكم، ما هي سياسة الإرجاع للإلكترونيات؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q454", "text": "من فضلك، ما هي مدة إرجاع الأثاث؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q455", "text": "السلام عليكم، ما هي مدة إرجاع الأثاث؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q456", "text": "مساء الخير، كم المدة المسموحة لإرجاع الملابس؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q457", "text": "من فضلك، كم يوم لدي لإرجاع اللابتوب؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q458", "text": "من فضلك، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q459", "text": "مساء الخير، في أي مدن يوجد فرع لبسيطة؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q460", "text": "من فضلك، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q461", "text": "السلام عليكم، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q462", "text": "من فضلك، كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q463", "text": "لو سمحت، هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q464", "text": "من فضلك، ما هي سياسة الإرجاع للإلكترونيات؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q465", "text": "السلام عليكم، هل يمكنني تسليم المرتجع في أي فرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q466", "text": "لو سمحت، هل يمكنني استبدال اللابتوب بموديل آخر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q467", "text": "لو سمحت، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q468", "text": "من فضلك، هل يمكنني استبدال اللابتوب بموديل آخر؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q469", "text": "مساء الخير، كم رسوم الشحن للأحذية أقل من 200 ريال؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q470", "text": "لو سمحت، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q471", "text": "هل يمكنني تسليم المرتجع في أي فرع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q472", "text": "لو سمحت، هل يجب إبقاء البطاقة على الملابس عند الإرجاع؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q473", "text": "مساء الخير، هل يمكنني تسليم المرتجع في أي فرع؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q474", "text": "من فضلك، في أي مدن يوجد فرع لبسيطة؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q475", "text": "السلام عليكم، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q476", "text": "لو سمحت، كم رسوم الشحن للإلكترونيات أقل من 300 ريال؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q477", "text": "لو سمحت، كم يوم لدي لإرجاع اللابتوب؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q478", "text": "كم يوم لدي لإرجاع اللابتوب؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q479", "text": "من فضلك، هل هناك رسوم لتوصيل الأثاث الكبير؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q480", "text": "مساء الخير، كم رسوم الشحن للأحذية أقل من 200 ريال؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q481", "text": "لو سمحت، كم المدة المسموحة لإرجاع الملابس؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q482", "text": "السلام عليكم، ما هو الضمان على أدوات المطبخ؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q483", "text": "السلام عليكم، ما هو الضمان على أدوات المطبخ؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q484", "text": "السلام عليكم، كم رسوم الشحن للأحذية أقل من 200 ريال؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q485", "text": "كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q486", "text": "ما هو الضمان على الجوالات والشواحن؟ شكراً لك.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q487", "text": "مساء الخير، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q488", "text": "لو سمحت، هل توجد رسوم إعادة تخزين إذا فتحت الصندوق؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q489", "text": "لو سمحت، ما هي سياسة الإرجاع للإلكترونيات؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q490", "text": "مساء الخير، كم يوم لدي لإرجاع اللابتوب؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q491", "text": "لو سمحت، هل توجد رسوم إعادة تخزين لمستلزمات المنزل؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q492", "text": "ما هي سياسة الإرجاع للإلكترونيات؟", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q493", "text": "السلام عليكم، كيف تتم عملية الاسترداد — أستلم المبلغ أم رصيد متجر؟", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q494", "text": "ما هو الضمان على الجوالات والشواحن؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q495", "text": "من فضلك، هل يوجد ضمان على الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}
+{"id": "q496", "text": "لو سمحت، ما هي مدة إرجاع الأثاث؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q497", "text": "هل يمكن لشركة الشحن استلام المرتجع بدلاً من زيارة الفرع؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "other"}
+{"id": "q498", "text": "لو سمحت، كم يوم لدي لإرجاع اللابتوب؟ الموضوع عاجل.", "language": "ar", "intent": "faq", "category": "electronics"}
+{"id": "q499", "text": "مساء الخير، ما هو الضمان على أدوات المطبخ؟", "language": "ar", "intent": "faq", "category": "home_goods"}
+{"id": "q500", "text": "لو سمحت، كم المدة المسموحة لإرجاع الملابس؟ أعتذر إن كان المكان غير مناسب.", "language": "ar", "intent": "faq", "category": "fashion"}

@@ -1,0 +1,56 @@
+{
+  "label": "primary",
+  "route": "default",
+  "rubric": "groundedness.v2.md",
+  "cases": 125,
+  "passed": 125,
+  "pass_rate": 1.0,
+  "slices": {
+    "language": {
+      "ar": 1.0,
+      "en": 1.0
+    },
+    "intent": {
+      "escalate": 1.0,
+      "faq": 1.0,
+      "safety": 1.0,
+      "service": 1.0
+    },
+    "difficulty": {
+      "hard": 1.0,
+      "routine": 1.0
+    },
+    "risk": {
+      "false_positive": 1.0,
+      "normal": 1.0,
+      "safety": 1.0
+    }
+  },
+  "slice_counts": {
+    "language": {
+      "ar": 63,
+      "en": 62
+    },
+    "intent": {
+      "escalate": 8,
+      "faq": 63,
+      "safety": 42,
+      "service": 12
+    },
+    "difficulty": {
+      "hard": 71,
+      "routine": 54
+    },
+    "risk": {
+      "false_positive": 10,
+      "normal": 73,
+      "safety": 42
+    }
+  },
+  "judge_mean": null,
+  "judged_cases": 0,
+  "wall_s": 0.3,
+  "total_halalas": 28.656,
+  "p50_latency_ms": 2.1,
+  "note": "Summary only. The gate reads pass_rate and slices; the per-case replies live in eval/out/ and are run artefacts, not evidence to be committed. Promote a new baseline with `make baseline LABEL=<run>` and say why in the commit message."
+}
