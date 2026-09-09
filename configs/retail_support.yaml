@@ -66,13 +66,13 @@ routes:
     api_key: mock-course-gateway-key
     residency: cloud
     aliases:
-      retail_support-default: claude-fable-5-1
-      retail_support-small: claude-fable-5-1
-      retail_support-flagship: claude-fable-5-1
-      retail_support-extract: claude-fable-5-1
-      retail_support-guard: claude-fable-5-1
-      retail_support-judge: claude-fable-5-1
-      retail_support-router: claude-fable-5-1
+      retail_support-default: course-anthropic
+      retail_support-small: course-anthropic
+      retail_support-flagship: course-anthropic
+      retail_support-extract: course-anthropic
+      retail_support-guard: course-anthropic
+      retail_support-judge: course-anthropic
+      retail_support-router: course-anthropic
 
   # The open-weight route. Same adapter, same code, different base_url —
   # in the classroom this is `vllm serve` on the GPU box (infra/vllm/serve.sh).
