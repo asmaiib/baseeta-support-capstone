@@ -1,0 +1,17 @@
+# The lab notebooks, in the classroom image plus Jupyter.
+#
+# Separate from Dockerfile so the application image stays small: nothing that
+# serves traffic needs JupyterLab. This one also carries demo_v0.py and tests/,
+# which the labs read and run and the runtime image deliberately omits.
+FROM retail_support/app:1.0.0
+
+USER root
+COPY requirements-notebooks.txt .
+RUN /opt/venv/bin/pip install --no-cache-dir -r requirements-notebooks.txt
+COPY demo_v0.py ./
+COPY tests ./tests
+# The application image logs JSON because a service should. A notebook is read by
+# a person standing in front of a room, so it gets the console format instead.
+ENV PYTHONPATH=/srv/src PYTHONUTF8=1 RETAIL_SUPPORT_LOG_JSON=0
+EXPOSE 8888
+ENTRYPOINT []

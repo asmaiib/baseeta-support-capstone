@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.git/
+logs/
+eval/out/*.json
+# tests/ and *.md stay out of the runtime image (Dockerfile never COPYs them),
+# but Dockerfile.notebooks needs both: the labs run pytest and read the prompt
+# library's markdown. A negated pattern cannot re-include a directory whose
+# parent was excluded, so exclude the noise instead of the whole tree.
+tests/**/__pycache__/
+docs/
+*.md
+!requirements.lock
+!requirements-notebooks.txt
+!src/murshid/prompts/library/**/*.md
+.env

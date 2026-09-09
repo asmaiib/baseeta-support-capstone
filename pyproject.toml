@@ -1,0 +1,59 @@
+[project]
+name = "retail_support"
+version = "1.0.0"
+description = "RetailSupport — the SDA-AIE-213 golden-thread bilingual citizen-services assistant"
+requires-python = ">=3.12"
+dependencies = [
+    "openai==3.8.0",
+    "anthropic==1.4.0",
+    "pydantic==2.13.5",
+    "pydantic-settings==2.15.0",
+    "httpx==0.28.1",
+    "structlog==26.1.0",
+    "tiktoken==0.14.0",
+    "pyyaml==6.0.3",
+    "langchain-core==1.6.2",
+    "redis==8.1.0",
+]
+
+[project.optional-dependencies]
+gateway = [
+    "fastapi==0.141.1",
+    "uvicorn[standard]==0.52.4",
+]
+dev = [
+    "pytest==9.1.1",
+    "pytest-cov==7.1.0",
+    "ruff==0.16.6",
+]
+
+[project.scripts]
+retail_support = "retail_support.cli:main"
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+retail_support = ["prompts/library/**/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "gateway: needs the mock gateway (or a real one) reachable at RETAIL_SUPPORT_PRIMARY_BASE_URL",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.coverage.run]
+source = ["src/retail_support"]

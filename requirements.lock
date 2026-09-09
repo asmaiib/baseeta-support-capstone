@@ -1,0 +1,17 @@
+# Pinned for the classroom. No floating installs, ever (Instructor Guide,
+# "LangChain version drift breaks imports"). Regenerate deliberately, never casually.
+openai==3.8.0
+anthropic==1.4.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+httpx==0.28.1
+structlog==26.1.0
+tiktoken==0.14.0
+pyyaml==6.0.3
+langchain-core==1.6.2
+redis==8.1.0
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+pytest==9.1.1
+pytest-cov==7.1.0
+ruff==0.16.6

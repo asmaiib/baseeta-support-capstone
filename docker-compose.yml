@@ -1,0 +1,137 @@
+# The classroom stack. Three containers, no credentials, works offline.
+#
+#   docker compose up -d              gateway + redis + the application
+#   docker compose run --rm tests     the whole suite, in a clean container
+#   docker compose --profile labs run --rm labs make eval
+#
+# The application container talks to the gateway by service name, which is the
+# same substitution a real deployment makes when it points at a provider: one
+# environment variable per route, no code change.
+
+name: retail_support
+
+services:
+  gateway:
+    build:
+      context: ./infra/mockgw
+    image: retail_support/course-gateway:1.0.0
+    environment:
+      # 1.0 feels like a real hosted model; the default keeps a lab moving.
+      MOCKGW_SPEED: "${MOCKGW_SPEED:-0.2}"
+      MOCKGW_MIN_CACHEABLE_TOKENS: "1024"
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8080/healthz', timeout=2).status==200 else 1)"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  redis:
+    image: redis:8-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "128mb", "--maxmemory-policy", "allkeys-lru"]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build:
+      context: .
+    image: retail_support/app:1.0.0
+    depends_on:
+      gateway:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      RETAIL_SUPPORT_PRIMARY_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_CHEAP_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_VLLM_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_COMPARISON_BASE_URL: http://gateway:8080
+      RETAIL_SUPPORT_CACHE_ENABLED: "${RETAIL_SUPPORT_CACHE_ENABLED:-0}"
+      RETAIL_SUPPORT_SEMANTIC_CACHE_ENABLED: "${RETAIL_SUPPORT_SEMANTIC_CACHE_ENABLED:-0}"
+      RETAIL_SUPPORT_ROUTING_ENABLED: "${RETAIL_SUPPORT_ROUTING_ENABLED:-0}"
+      RETAIL_SUPPORT_LOG_JSON: "1"
+      REDIS_URL: redis://redis:6379/0
+    ports:
+      - "8000:8000"
+
+  # `docker compose run --rm tests` — the suite in a clean container, which is
+  # the only place "it works on my machine" stops being a hypothesis.
+  tests:
+    build:
+      context: .
+    image: retail_support/app:1.0.0
+    depends_on:
+      gateway:
+        condition: service_healthy
+    environment:
+      RETAIL_SUPPORT_PRIMARY_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_CHEAP_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_VLLM_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_COMPARISON_BASE_URL: http://gateway:8080
+      RETAIL_SUPPORT_LOG_LEVEL: CRITICAL
+    volumes:
+      - ./tests:/srv/tests:ro
+      - ./infra:/srv/infra:ro
+    command: ["python", "-m", "pytest", "/srv/tests", "-q"]
+
+  # The lab notebooks, served from the container against the compose gateway:
+  #   docker compose --profile notebooks up notebooks
+  # then open the printed URL. The notebooks in labs/ are committed WITH their
+  # outputs; running them here reproduces those outputs rather than trusting them.
+  notebooks:
+    profiles: ["notebooks"]
+    build:
+      context: .
+      dockerfile: Dockerfile.notebooks
+    depends_on:
+      gateway:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      RETAIL_SUPPORT_PRIMARY_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_CHEAP_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_VLLM_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_COMPARISON_BASE_URL: http://gateway:8080
+      REDIS_URL: redis://redis:6379/0
+      PYTHONPATH: /srv/src
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../labs:/srv/labs
+      - ./eval/out:/srv/eval/out
+      - ./logs:/srv/logs
+    command: ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser",
+              "--allow-root", "--ServerApp.token=", "--notebook-dir=/srv"]
+
+  # Everything a lab runs, in the container, against the compose gateway:
+  #   docker compose --profile labs run --rm labs python eval/harness.py
+  #   docker compose --profile labs run --rm labs python scripts/guard_eval.py
+  labs:
+    profiles: ["labs"]
+    build:
+      context: .
+    image: retail_support/app:1.0.0
+    depends_on:
+      gateway:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      RETAIL_SUPPORT_PRIMARY_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_CHEAP_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_VLLM_BASE_URL: http://gateway:8080/v1
+      RETAIL_SUPPORT_COMPARISON_BASE_URL: http://gateway:8080
+      RETAIL_SUPPORT_LOG_LEVEL: WARNING
+    volumes:
+      - ./eval/out:/srv/eval/out
+      - ./logs:/srv/logs
+    entrypoint: []
+    command: ["python", "eval/harness.py", "--label", "compose"]
