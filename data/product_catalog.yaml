@@ -1,0 +1,82 @@
+version: "1.0"
+store_name:
+  en: "Baseeta Retail"
+  ar: "بسيطة للتجزئة"
+entries:
+  - id: "cat-electronics"
+    category: "electronics"
+    title:
+      en: "Electronics (phones, laptops, small appliances)"
+      ar: "الإلكترونيات (جوالات، لابتوبات، أجهزة صغيرة)"
+    return_window:
+      en: "15 days from delivery, unopened box or original packaging"
+      ar: "15 يومًا من تاريخ التسليم، بصندوق غير مفتوح أو تغليف أصلي"
+    warranty:
+      en: "1 year manufacturer warranty, registered automatically at purchase"
+      ar: "ضمان الشركة المصنعة لمدة سنة واحدة، يُسجَّل تلقائيًا عند الشراء"
+    shipping_fee:
+      en: "SAR 25 standard shipping, free above SAR 300"
+      ar: "رسوم شحن قياسية 25 ريال، مجاني فوق 300 ريال"
+    restocking_fee:
+      en: "SAR 50 restocking fee if the box was opened"
+      ar: "رسوم إعادة تخزين 50 ريال إذا تم فتح الصندوق"
+    keywords:
+      en: ["phone", "laptop", "electronics", "charger", "appliance"]
+      ar: ["جوال", "لابتوب", "الكترونيات", "شاحن", "جهاز"]
+
+  - id: "cat-home"
+    category: "home_goods"
+    title:
+      en: "Home goods (furniture, kitchenware, decor)"
+      ar: "مستلزمات المنزل (أثاث، أدوات مطبخ، ديكور)"
+    return_window:
+      en: "30 days from delivery, unused and in original condition"
+      ar: "30 يومًا من تاريخ التسليم، غير مستخدم وبحالته الأصلية"
+    warranty:
+      en: "6 months against manufacturing defects"
+      ar: "6 أشهر ضد عيوب التصنيع"
+    shipping_fee:
+      en: "SAR 40 standard shipping, free above SAR 500; large furniture SAR 120 white-glove delivery"
+      ar: "رسوم شحن قياسية 40 ريال، مجاني فوق 500 ريال؛ الأثاث الكبير 120 ريال توصيل خاص"
+    restocking_fee:
+      en: "No restocking fee"
+      ar: "بدون رسوم إعادة تخزين"
+    keywords:
+      en: ["furniture", "kitchen", "decor", "home"]
+      ar: ["أثاث", "مطبخ", "ديكور", "منزل"]
+
+  - id: "cat-fashion"
+    category: "fashion"
+    title:
+      en: "Fashion (clothing, shoes, accessories)"
+      ar: "الأزياء (ملابس، أحذية، إكسسوارات)"
+    return_window:
+      en: "14 days from delivery, tags attached and unworn"
+      ar: "14 يومًا من تاريخ التسليم، مع بقاء البطاقة وعدم الاستخدام"
+    warranty:
+      en: "No warranty; defective items are replaced free of charge"
+      ar: "بدون ضمان؛ يتم استبدال القطع المعيبة مجانًا"
+    shipping_fee:
+      en: "SAR 15 standard shipping, free above SAR 200"
+      ar: "رسوم شحن قياسية 15 ريال، مجاني فوق 200 ريال"
+    restocking_fee:
+      en: "No restocking fee"
+      ar: "بدون رسوم إعادة تخزين"
+    keywords:
+      en: ["clothing", "shoes", "fashion", "accessory"]
+      ar: ["ملابس", "أحذية", "أزياء", "إكسسوار"]
+
+general_policy:
+  exchange:
+    en: "Exchanges follow the same window as returns for that category; the replacement ships once the original is scanned at the courier."
+    ar: "الاستبدال يتبع نفس مدة الإرجاع لتلك الفئة؛ يُشحن البديل بعد مسح المنتج الأصلي لدى شركة الشحن."
+  refund_method:
+    en: "Refunds go back to the original payment method within 5-7 business days; store credit is instant."
+    ar: "تُرد المبالغ إلى وسيلة الدفع الأصلية خلال 5-7 أيام عمل؛ رصيد المتجر فوري."
+  store_pickup:
+    en: "Return drop-off is available at any Baseeta store, or a courier pickup can be scheduled."
+    ar: "يمكن تسليم المرتجع في أي فرع لبسيطة، أو حجز موعد استلام من شركة الشحن."
+
+store_locations:
+  en: ["Riyadh", "Jeddah", "Dammam", "Makkah", "Madinah", "Khobar"]
+  ar: ["الرياض", "جدة", "الدمام", "مكة", "المدينة", "الخبر"]
