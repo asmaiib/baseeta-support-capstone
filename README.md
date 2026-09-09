@@ -1,9 +1,13 @@
 # Baseeta Support — LLM Application Engineering Capstone
 
-**Author:** _[Asma Alshilash - Sara - Sara]_
+## Authors
+
+- Asma Alshilash
+- Sara Alshahrany
+- Sara Haddad
+
 **Programme:** SDA-AIE-213 — LLM Application Engineering, SDAIA Academy
-**Cohort dates:** _[6-9-2026 to 9-9-2026]_
-**Track:** D — Retail order support
+**Cohort dates:** September 6, 2026 – September 9, 2026
 
 ## What this is
 
