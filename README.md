@@ -1,10 +1,9 @@
 # Baseeta Support — LLM Application Engineering Capstone
 
-**Author:** _[Asma — add your full name here before submitting]_
+**Author:** _[Asma Alshilash - Sara - Sara]_
 **Programme:** SDA-AIE-213 — LLM Application Engineering, SDAIA Academy
-**Cohort dates:** _[add cohort dates here]_
+**Cohort dates:** _[6-9-2026 to 9-9-2026]_
 **Track:** D — Retail order support
-**Course repository:** https://github.com/MohammadYusif/llm-application-engineering
 
 ## What this is
 
