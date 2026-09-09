@@ -66,13 +66,13 @@ routes:
     api_key: mock-course-gateway-key
     residency: cloud
     aliases:
-      retail_support-default: course-anthropic
-      retail_support-small: course-anthropic
-      retail_support-flagship: course-anthropic
-      retail_support-extract: course-anthropic
-      retail_support-guard: course-anthropic
-      retail_support-judge: course-anthropic
-      retail_support-router: course-anthropic
+      retail_support-default: claude-fable-5-1
+      retail_support-small: claude-fable-5-1
+      retail_support-flagship: claude-fable-5-1
+      retail_support-extract: claude-fable-5-1
+      retail_support-guard: claude-fable-5-1
+      retail_support-judge: claude-fable-5-1
+      retail_support-router: claude-fable-5-1
 
   # The open-weight route. Same adapter, same code, different base_url —
   # in the classroom this is `vllm serve` on the GPU box (infra/vllm/serve.sh).
@@ -130,7 +130,7 @@ prices:
       input_per_mtok: 0.56
       output_per_mtok: 2.25
       cached_input_per_mtok: 0.06
-    course-anthropic:
+    claude-fable-5-1:
       input_per_mtok: 11.25
       output_per_mtok: 56.25
       cached_input_per_mtok: 1.13
