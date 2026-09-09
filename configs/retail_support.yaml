@@ -1,0 +1,180 @@
+# RetailSupport configuration. Model names are configuration, not code (Module 1 §3).
+#
+# API keys are NEVER written here. They arrive from the environment as
+#   RETAIL_SUPPORT_<ROUTE>_API_KEY  and  RETAIL_SUPPORT_<ROUTE>_BASE_URL
+# so this file is safe to commit and a provider swap is a YAML edit.
+#
+# Zero-key default: primary_route and cheap_route point at "fake" (dialect:
+# fake), which is FakeClient — deterministic, no network, no GPU. That is what
+# every test, the eval harness and a cold Colab run use out of the box.
+#
+# To exercise a REAL backend (Section 6's commercial-vs-open-weight
+# comparison), point "comparison" (Anthropic) and/or "vllm" (an
+# OpenAI-compatible open-weight endpoint) at a real base_url + api_key via
+# those two env vars, then set primary_route/cheap_route to that route name.
+# Nothing in src/ changes either way — that is the whole argument for the
+# boundary, and the notebook performs this swap rather than describing it.
+
+primary_route: fake
+fallback_route: vllm
+cheap_route: fake
+
+routes:
+  fake:
+    dialect: fake
+    residency: cloud
+    aliases:
+      retail_support-default: fake-primary
+      retail_support-small: fake-small
+      retail_support-flagship: fake-flagship
+      retail_support-extract: fake-extract
+      retail_support-guard: fake-guard
+      retail_support-judge: fake-judge
+      retail_support-router: fake-router
+
+  primary:
+    dialect: openai
+    base_url: http://127.0.0.1:8080/v1
+    api_key: mock-course-gateway-key
+    residency: cloud
+    aliases:
+      retail_support-default: course-flagship
+      retail_support-small: course-small
+      retail_support-flagship: course-flagship
+      retail_support-extract: course-flagship
+      retail_support-guard: course-small
+      retail_support-judge: course-flagship
+      retail_support-router: course-small
+
+  cheap:
+    dialect: openai
+    base_url: http://127.0.0.1:8080/v1
+    api_key: mock-course-gateway-key
+    residency: cloud
+    aliases:
+      retail_support-default: course-small
+      retail_support-small: course-small
+      retail_support-flagship: course-small
+      retail_support-extract: course-small
+      retail_support-guard: course-small
+      retail_support-judge: course-small
+      retail_support-router: course-small
+
+  comparison:
+    dialect: anthropic
+    base_url: http://127.0.0.1:8080
+    api_key: mock-course-gateway-key
+    residency: cloud
+    aliases:
+      retail_support-default: course-anthropic
+      retail_support-small: course-anthropic
+      retail_support-flagship: course-anthropic
+      retail_support-extract: course-anthropic
+      retail_support-guard: course-anthropic
+      retail_support-judge: course-anthropic
+      retail_support-router: course-anthropic
+
+  # The open-weight route. Same adapter, same code, different base_url —
+  # in the classroom this is `vllm serve` on the GPU box (infra/vllm/serve.sh).
+  vllm:
+    dialect: openai
+    base_url: http://127.0.0.1:8080/v1
+    api_key: mock-course-gateway-key
+    residency: on_premise
+    aliases:
+      retail_support-default: retail_support-onprem
+      retail_support-small: retail_support-onprem
+      retail_support-flagship: retail_support-onprem
+      retail_support-extract: retail_support-onprem
+      retail_support-guard: retail_support-onprem
+      retail_support-judge: retail_support-onprem
+      retail_support-router: retail_support-onprem
+
+# Illustrative course rates, SAR per 1,000,000 tokens. Refresh every delivery
+# (Instructor Guide, T-minus 1 week). Cached input is the Module 6 headline.
+prices:
+  default:
+    input_per_mtok: 6.00
+    output_per_mtok: 24.00
+    cached_input_per_mtok: 0.60
+  models:
+    # Keyed to the alias names themselves — the fake route reports the alias
+    # as model_id directly (there is no real snapshot to pin), so pricing by
+    # alias is how the router/cascade cost story becomes measurable even on
+    # the zero-key path.
+    retail_support-flagship:
+      input_per_mtok: 11.25
+      output_per_mtok: 56.25
+      cached_input_per_mtok: 1.13
+    retail_support-extract:
+      input_per_mtok: 11.25
+      output_per_mtok: 56.25
+      cached_input_per_mtok: 1.13
+    retail_support-judge:
+      input_per_mtok: 11.25
+      output_per_mtok: 56.25
+      cached_input_per_mtok: 1.13
+    retail_support-default:
+      input_per_mtok: 11.25
+      output_per_mtok: 56.25
+      cached_input_per_mtok: 1.13
+    retail_support-small:
+      input_per_mtok: 0.56
+      output_per_mtok: 2.25
+      cached_input_per_mtok: 0.06
+    retail_support-guard:
+      input_per_mtok: 0.56
+      output_per_mtok: 2.25
+      cached_input_per_mtok: 0.06
+    retail_support-router:
+      input_per_mtok: 0.56
+      output_per_mtok: 2.25
+      cached_input_per_mtok: 0.06
+    course-anthropic:
+      input_per_mtok: 11.25
+      output_per_mtok: 56.25
+      cached_input_per_mtok: 1.13
+    retail_support-onprem:
+      # Self-hosted has no per-token price sheet — it has a GPU bill. This is the
+      # amortised figure scripts/breakeven.py computes at 50% utilisation, kept
+      # here so the meter can compare like with like. See docs/adr/002.
+      input_per_mtok: 1.82
+      output_per_mtok: 1.82
+      cached_input_per_mtok: 1.82
+
+guards:
+  max_input_chars: 4000
+  classifier_alias: retail_support-guard
+  classifier_enabled: true
+  canary: "⟦BASEETA-9c2e⟧"
+
+cache:
+  enabled: false
+  backend: memory
+  redis_url: redis://localhost:6379/0
+  semantic_enabled: false
+  # Measured, not inherited. On this course's hashed-n-gram embedding and this
+  # traffic, 0.90 serves the paraphrases (politeness prefixes, spelling variants)
+  # and clears the worst near-miss pair by 0.03. Arabic needs a HIGHER threshold,
+  # not a lower one: Arabic spelling variants of the same question score higher
+  # than English paraphrases do, so the language sits closer to its near-misses.
+  # Re-measure both numbers with `make eval-cache` whenever the embedding changes.
+  semantic_threshold: 0.90
+  semantic_threshold_by_language:
+    ar: 0.92
+  ttl_seconds: 3600
+
+pipeline:
+  max_history_turns: 8
+  max_tool_iterations: 6
+  routing_enabled: false
+  # Lab 6 task 4: the first routing table almost never survives the gate, and
+  # the correction is the lesson. Cheap-first with a deterministic escalation
+  # signal keeps most of the saving and returns the quality.
+  cascade_enabled: false
+  cascade_escalate_alias: retail_support-flagship
+  routing_table:
+    faq: retail_support-small
+    service: retail_support-default
+    complex: retail_support-flagship
+    escalate: null
