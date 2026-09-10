@@ -87,22 +87,28 @@ quality loss; the 200-conversation replay with every optimisation on measured a
 ## Known limitations
 
 - **The `fake` route is a deterministic responder, not a model.** Every number in
-  this report except the Section 6 comparison numbers (not yet run) was produced
-  against `llm/fake_brain.py` — pattern matching over keywords and regexes, grounded
+  this report except the Section 6 comparison rows was produced against
+  `llm/fake_brain.py` — pattern matching over keywords and regexes, grounded
   in the real catalog, but with no language understanding. See
   [ADR 003](docs/adr/003-the-course-gateway.md) for exactly what is real (the
   boundary, the schemas, the authorisation gate, the grounding check) and what is
   simulated (quality). A 100% pass rate on a deterministic responder is expected,
   not a claim about how a real model would perform on the same suite.
-- **Section 6 (commercial vs open-weight) has not been run against real backends.**
-  This needs a real Anthropic key and a real OpenAI-compatible open-weight endpoint,
-  neither of which was available in this environment. `bench_providers.py` and
-  `breakeven.py` are implemented and smoke-tested; instructions to run them for real
-  are in `BENCHMARKS.md`.
+- **Section 6 (commercial vs open-weight) was run against real backends, at small
+  scale.** Commercial (Google Gemini 3.6 Flash) hit its free-tier daily quota
+  (20 requests/day) before a full run completed. Open-weight (OpenRouter's
+  `openrouter/free` router) completed a small real run — 2 cases, 0/2 pass,
+  both failing on structured-output validation after the retry-repair loop
+  exhausted its attempts. Both results are genuine live-provider evidence, not
+  simulated, but neither reflects a full 125-case comparison; that needs a
+  paid tier or a quota reset, out of scope for this submission window. See
+  `BENCHMARKS.md` §6 for the full table.
 - **The self-host break-even's throughput figure (950 tok/s) is illustrative, not
-  measured** — no GPU was available to benchmark vLLM at realistic concurrency.
-  Re-run `scripts/breakeven.py --tokens-per-sec <measured>` before treating the ~25%
-  utilisation crossover as more than a shape.
+  measured** — no GPU was available to benchmark vLLM at realistic concurrency,
+  and the OpenRouter free-tier substitution used for Section 6 has no GPU-hour
+  cost of its own to measure against. Re-run `scripts/breakeven.py
+  --tokens-per-sec <measured>` before treating the ~25% utilisation crossover
+  as more than a shape.
 - **The judge's remaining 6 calibration disagreements** are all the "imprecise"
   (0.5) label class, which the current amount-presence heuristic cannot
   distinguish from fully grounded (1.0) — see Judge calibration above.
