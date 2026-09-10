@@ -82,13 +82,13 @@ routes:
     api_key: mock-course-gateway-key
     residency: on_premise
     aliases:
-      retail_support-default: meta-llama/llama-3.3-70b-instruct:free
-      retail_support-small: meta-llama/llama-3.3-70b-instruct:free
-      retail_support-flagship: meta-llama/llama-3.3-70b-instruct:free
-      retail_support-extract: meta-llama/llama-3.3-70b-instruct:free
-      retail_support-guard: meta-llama/llama-3.3-70b-instruct:free
-      retail_support-judge: meta-llama/llama-3.3-70b-instruct:free
-      retail_support-router: meta-llama/llama-3.3-70b-instruct:free
+      retail_support-default: openrouter/free
+      retail_support-small: openrouter/free
+      retail_support-flagship: openrouter/free
+      retail_support-extract: openrouter/free
+      retail_support-guard: openrouter/free
+      retail_support-judge: openrouter/free
+      retail_support-router: openrouter/free
 
 # Illustrative course rates, SAR per 1,000,000 tokens. Refresh every delivery
 # (Instructor Guide, T-minus 1 week). Cached input is the Module 6 headline.
@@ -134,7 +134,7 @@ prices:
       input_per_mtok: 11.25
       output_per_mtok: 56.25
       cached_input_per_mtok: 1.13
-    meta-llama/llama-3.3-70b-instruct:free:
+    openrouter/free:
       # Section 6's open-weight route runs against OpenRouter's free tier as a
       # stand-in for a real self-hosted vLLM instance (no GPU available in this
       # environment) — genuinely $0 per token, not an amortised on-prem figure.
