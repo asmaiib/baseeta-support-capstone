@@ -60,7 +60,7 @@ routes:
       retail_support-judge: course-small
       retail_support-router: course-small
 
-   comparison:
+  comparison:
     dialect: openai
     base_url: https://generativelanguage.googleapis.com/v1beta/openai/
     api_key: mock-course-gateway-key
@@ -130,7 +130,7 @@ prices:
       input_per_mtok: 0.56
       output_per_mtok: 2.25
       cached_input_per_mtok: 0.06
-   gemini-2.0-flash:
+    gemini-3.6-flash:
       input_per_mtok: 11.25
       output_per_mtok: 56.25
       cached_input_per_mtok: 1.13
