@@ -60,19 +60,19 @@ routes:
       retail_support-judge: course-small
       retail_support-router: course-small
 
-  comparison:
-    dialect: anthropic
-    base_url: http://127.0.0.1:8080
+   comparison:
+    dialect: openai
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
     api_key: mock-course-gateway-key
     residency: cloud
     aliases:
-      retail_support-default: course-anthropic
-      retail_support-small: course-anthropic
-      retail_support-flagship: course-anthropic
-      retail_support-extract: course-anthropic
-      retail_support-guard: course-anthropic
-      retail_support-judge: course-anthropic
-      retail_support-router: course-anthropic
+      retail_support-default: gemini-2.0-flash
+      retail_support-small: gemini-2.0-flash
+      retail_support-flagship: gemini-2.0-flash
+      retail_support-extract: gemini-2.0-flash
+      retail_support-guard: gemini-2.0-flash
+      retail_support-judge: gemini-2.0-flash
+      retail_support-router: gemini-2.0-flash
 
   # The open-weight route. Same adapter, same code, different base_url —
   # in the classroom this is `vllm serve` on the GPU box (infra/vllm/serve.sh).
@@ -130,7 +130,7 @@ prices:
       input_per_mtok: 0.56
       output_per_mtok: 2.25
       cached_input_per_mtok: 0.06
-    course-anthropic:
+   gemini-2.0-flash:
       input_per_mtok: 11.25
       output_per_mtok: 56.25
       cached_input_per_mtok: 1.13
