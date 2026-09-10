@@ -8,6 +8,7 @@
 
 **Programme:** SDA-AIE-213 — LLM Application Engineering, SDAIA Academy
 **Cohort dates:** September 6, 2026 – September 9, 2026
+**SDAIA Academy GitHub Link:** https://github.com/SDAIAAcademy
 
 ## What this is
 
