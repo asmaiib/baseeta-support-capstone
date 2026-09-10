@@ -66,13 +66,13 @@ routes:
     api_key: mock-course-gateway-key
     residency: cloud
     aliases:
-      retail_support-default: gemini-2.0-flash
-      retail_support-small: gemini-2.0-flash
-      retail_support-flagship: gemini-2.0-flash
-      retail_support-extract: gemini-2.0-flash
-      retail_support-guard: gemini-2.0-flash
-      retail_support-judge: gemini-2.0-flash
-      retail_support-router: gemini-2.0-flash
+      retail_support-default: gemini-3.6-flash
+      retail_support-small: gemini-3.6-flash
+      retail_support-flagship: gemini-3.6-flash
+      retail_support-extract: gemini-3.6-flash
+      retail_support-guard: gemini-3.6-flash
+      retail_support-judge: gemini-3.6-flash
+      retail_support-router: gemini-3.6-flash
 
   # The open-weight route. Same adapter, same code, different base_url —
   # in the classroom this is `vllm serve` on the GPU box (infra/vllm/serve.sh).
