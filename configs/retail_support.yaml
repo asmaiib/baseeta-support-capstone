@@ -82,13 +82,13 @@ routes:
     api_key: mock-course-gateway-key
     residency: on_premise
     aliases:
-      retail_support-default: retail_support-onprem
-      retail_support-small: retail_support-onprem
-      retail_support-flagship: retail_support-onprem
-      retail_support-extract: retail_support-onprem
-      retail_support-guard: retail_support-onprem
-      retail_support-judge: retail_support-onprem
-      retail_support-router: retail_support-onprem
+      retail_support-default: meta-llama/llama-3.3-70b-instruct:free
+      retail_support-small: meta-llama/llama-3.3-70b-instruct:free
+      retail_support-flagship: meta-llama/llama-3.3-70b-instruct:free
+      retail_support-extract: meta-llama/llama-3.3-70b-instruct:free
+      retail_support-guard: meta-llama/llama-3.3-70b-instruct:free
+      retail_support-judge: meta-llama/llama-3.3-70b-instruct:free
+      retail_support-router: meta-llama/llama-3.3-70b-instruct:free
 
 # Illustrative course rates, SAR per 1,000,000 tokens. Refresh every delivery
 # (Instructor Guide, T-minus 1 week). Cached input is the Module 6 headline.
@@ -134,6 +134,15 @@ prices:
       input_per_mtok: 11.25
       output_per_mtok: 56.25
       cached_input_per_mtok: 1.13
+    meta-llama/llama-3.3-70b-instruct:free:
+      # Section 6's open-weight route runs against OpenRouter's free tier as a
+      # stand-in for a real self-hosted vLLM instance (no GPU available in this
+      # environment) — genuinely $0 per token, not an amortised on-prem figure.
+      # See docs/adr/002 for the real self-host break-even math, computed
+      # separately since this substitution has no GPU-hour cost to measure.
+      input_per_mtok: 0.0
+      output_per_mtok: 0.0
+      cached_input_per_mtok: 0.0
     retail_support-onprem:
       # Self-hosted has no per-token price sheet — it has a GPU bill. This is the
       # amortised figure scripts/breakeven.py computes at 50% utilisation, kept
