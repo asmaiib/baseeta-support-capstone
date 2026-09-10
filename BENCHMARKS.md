@@ -62,26 +62,36 @@ to it, not in a separate table.
 
 ## Section 6 — Commercial vs open-weight comparison
 
-**Not yet run against real backends.** `scripts/bench_providers.py` and
-`scripts/breakeven.py` are implemented and smoke-tested against the `fake`
-route (below); the actual comparison needs a real Anthropic key and a real
-OpenAI-compatible open-weight endpoint. To run it for real:
+**Executed against real backends**, at small scale, due to free-tier quota
+limits. Commercial: Google Gemini 3.6 Flash. Open-weight: OpenRouter's
+free-tier auto-router (`openrouter/free`). Both were reached through the
+same `LLMClient` boundary and `eval/harness.py` — no route-specific code.
 
 ```bash
-export RETAIL_SUPPORT_COMPARISON_BASE_URL=https://api.anthropic.com
-export RETAIL_SUPPORT_COMPARISON_API_KEY=sk-ant-...
-export RETAIL_SUPPORT_VLLM_BASE_URL=<your vLLM or hosted open-weight endpoint>/v1
-export RETAIL_SUPPORT_VLLM_API_KEY=...
+export RETAIL_SUPPORT_COMPARISON_API_KEY=<your Google AI Studio key>
+export RETAIL_SUPPORT_VLLM_BASE_URL=https://openrouter.ai/api/v1
+export RETAIL_SUPPORT_VLLM_API_KEY=<your OpenRouter key>
 python eval/harness.py --route comparison --label comparison
 python eval/harness.py --route vllm --label openweight
-python scripts/bench_providers.py --routes comparison,vllm
 ```
 
-| Check | Result |
-|---|---|
-| `bench_providers.py` smoke test (fake route) | runs cleanly, 20 bilingual prompts, 0.39 halalas/call |
-| `breakeven.py`, illustrative defaults (SAR 12/GPU-hr, 950 tok/s **not measured on real hardware**, 1.35× ops overhead) | crosses over the flagship tier at ~25% sustained utilisation; never beats the cheap hosted tier |
+| Route | Cases | Pass rate | Cost | Notes |
+|---|---|---|---|---|
+| `comparison` (Gemini 3.6 Flash) | — | — | — | Blocked by free-tier daily quota (20 requests/day) before a full run completed |
+| `vllm` (OpenRouter `openrouter/free`) | 2 | 0/2 (0%) | 2.5 halalas | Real run, completed without crashing. Both failures were `structured_validation_failed` on `route_verdict`/`guard_verdict` after the retry-repair loop exhausted its attempts, and a content mismatch (missing the expected "15 days from delivery, unopened box..." phrasing) |
+| `bench_providers.py` smoke test (`fake` route) | 20 bilingual prompts | — | 0.39 halalas/call | Structural check only, not a quality claim |
 
-The break-even's `--tokens-per-sec` default is illustrative, not measured — no
-GPU was available in this environment. Re-run with a real vLLM throughput
-number before treating the 25% crossover as more than a shape.
+**What this shows:** the boundary genuinely reaches live commercial and
+open-weight providers — this is not a simulated result. Sample sizes are
+small because of free-tier rate limits, not a design choice; a full
+125-case comparison needs a paid tier or a quota reset, out of scope for
+this submission window. See `EVALUATION_REPORT.md` known limitations for
+detail.
+
+`breakeven.py`, illustrative defaults (SAR 12/GPU-hr, 950 tok/s **not
+measured on real hardware**, 1.35× ops overhead): crosses over the
+flagship tier at ~25% sustained utilisation; never beats the cheap hosted
+tier. This figure remains illustrative — no GPU was available in this
+environment, and the OpenRouter free-tier substitution above has no
+GPU-hour cost of its own to measure against. Treat the 25% crossover as a
+shape, not a verified number.
